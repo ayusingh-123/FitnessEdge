@@ -1,0 +1,83 @@
+<body>
+ 
+    <div class="bmi">
+        <pre style="text-align:center; padding-top: 1rem; font-size: xx-large; color: rgb(166, 0, 0);">BMI Calculator</pre>
+     <div class="bmibox">
+        
+        <hr size="20px" />
+
+        <div class="box1">
+          <table>
+
+            <div class="input">
+              <tr colspan="2">
+                <td><label for="age">Age : </label></td>
+                <td><input type="text" size="15" id="age" placeholder="Age 2-120"></td>
+              </tr>
+            </div>
+
+            <div class="input">
+              <tr colspan="2">
+                <td><label for="gender">Gender : </label></td>
+                <td><input type="radio" name="gen" id="male">Male</td> &nbsp;
+                <td><input type="radio" name="gen" id="female">Female</td>
+              </tr>
+            </div>
+
+            
+            <div class="input">
+              <tr colspan="2">
+                <td><label for="height">Height:</label></td>
+                <td><input type="text" id="height" size="15" placeholder="Height in cm"></td>
+              </tr>
+            </div>
+
+            <div class="input">
+             <tr colspan="2">
+              <td><label for="weight">Weight : </label></td>
+              <td><input type="text" id="weight" size="15" placeholder="Weight in kg"></td>
+             </tr>
+            </div>
+
+            <div class="enter">
+              <tr>
+                <td><button type="submit"  class="calculate" (click)="BMI()" >Calculate</button></td> &nbsp; &nbsp;
+                <td><button type="submit"  class="clear" (click)="CLR()" >Clear</button></td>
+              </tr>
+            </div>
+          </table>
+
+             
+                  
+                  
+                
+
+        </div>
+        <div class="box2">
+            <div class="res">Result</div>
+            <div id="ans"><div class="result"></div></div>
+            <div class="pic" >
+              <div class="bmi-status">
+                <div class="Underweight">Underweight: 0 - 18.5</div>
+                <div class="Normal">Normal: 18.5 - 25</div>
+                <div class="Overweight">Overweight: 25 - 30</div>
+                <div class="Obese">Obese: 30 - 35</div>
+              </div>
+              <div style="padding-left: 4rem;">
+                <img src="../assets/img/fitu.png" alt="" height="90%" width="85%"  > 
+              </div>
+
+            </div>
+            
+            
+           </div>
+
+
+
+        
+
+     </div>
+    </div>
+</body>
+
+

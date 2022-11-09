@@ -1,0 +1,37 @@
+.navbar {
+    height: 4rem;
+}
+.container {
+    margin: 0px 0px 0px 0px;
+}
+.bmiStatus{
+    color: red;
+}
+.cont{
+    margin: 2rem;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(232, 232, 232);
+    padding: 0rem 2rem 0rem;
+}
+.intro{
+    font-size: medium;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 4rem;
+}
+.icon{
+    padding-left: 3rem;
+}
+.benefit{
+    margin: 2rem;
+    background-color: rgb(232, 232, 232);
+    padding: 4rem 2rem 0rem;
+    margin-bottom: 4rem;
+}
+.content{
+    margin: 2rem;
+    background-color: rgb(232, 232, 232);
+    padding: 4rem 2rem 0rem;
+    margin-bottom: 4rem;
+}

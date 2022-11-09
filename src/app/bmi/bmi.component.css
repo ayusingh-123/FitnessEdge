@@ -1,0 +1,89 @@
+body{
+    background-image: url('./bmiimg/finall.jpg');
+    image-resolution: 100%;
+    height: 41.2rem;
+   
+}
+.bmi{
+    margin: 0rem 10rem 0rem;
+    border: 2px solid whitesmoke;
+    border-radius: 1rem;
+    height: 41.2rem;
+    background-color: rgba(176, 176, 250, 0.379);
+    opacity: 70%;
+    padding-top: 2rem;
+}
+.bmibox{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 58rem;
+    background-color: rgb(211, 209, 209);
+    margin-left: 7rem;
+    margin-right: 8rem;
+    border: 2px solid rgb(46, 48, 79);
+    border-radius: 1rem;
+    color: rgb(255, 0, 0);
+    font-size: xx-large;
+    box-shadow: 5px 5px 10px #5360d0,
+    -5px -5px 10px #ffffff;
+    opacity: 100%;
+}
+.box1{
+    font-size: 1.5rem;
+    color: black;
+}
+.box2{
+    padding-left: 2rem;
+    color: rgb(141, 0, 0);
+}
+.res{
+    padding-left: 2rem;
+    background-color: green;
+    color: whitesmoke;
+    width: 30rem;
+    border-radius: 1px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    height: 14rem;
+}
+
+.bmi-status{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    padding-top: 1rem;
+}
+.result{
+    padding-top: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+.input{
+    padding: 0.8rem;
+}
+.calculate{
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 0.5rem;
+    width: 8rem;
+}
+.calculate:hover{
+    background-color: green;
+    box-shadow: darkgreen;
+}
+.clear{
+    padding: 5px;
+    border: 1px solid salmon;
+    border-radius: 0.5rem;
+    width: 6rem;
+    
+}
+.clear:hover{
+    background-color: red;
+}
