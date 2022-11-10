@@ -8,6 +8,7 @@
   <title>Document</title>
 </head>
 <body>
+  
   <nav class="navbar sticky-top navbar-dark navbar-expand-lg bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="">
@@ -19,7 +20,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" routerLink="body" >Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" routerLink="bmi" >BMI</a>
@@ -43,7 +44,7 @@
             </ul> -->
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link disabled">Contact</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -53,103 +54,10 @@
       </div>
     </div>
   </nav>
-  <!-- <router-outlet></router-outlet> -->
-
-
-  
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="4000">
-          <img src="../assets/img/c3.jpg" width="1200px" class="d-block w-100" alt="...">
-      
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="../assets/img/c22.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="../assets/img/c1.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <div style="font-size:xx-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center; margin-top: 6rem; ">
-      Welcome
-    </div>
-    <hr width="10%" size="5rem" align="center">
-    <div class="intro">
-      <pre>Welcome to the website Intense Gym! We hope that you will appreciate our services and opportunities we offer
-         our loyal and potential customers. Here are some of them:</pre>
-    </div>
-
-    <div class="benefit px-4 py-5" id="featured-3">
-      <h2 class="pb-2 border-bottom " style="text-align: center;">Facilities of Gym</h2>
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        
-        <div class="feature col">
-          <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
-            <img src="../assets/img/icon1.png" width="40px" height="40px" alt="">
-          </div>
-          <h3 class="fs-2">Qualified Coaches</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <button style="background-color: rgb(88, 88, 216); text-decoration: none; border-radius: 2px; color: aliceblue;">Know more..</button>
-        </div>
-        <div class="feature col">
-          <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
-            <img src="../assets/img/icon2.png" width="40px" height="40px" alt="">
-          </div>
-          <h3 class="fs-2">Individual Approach</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          
-            <button style="background-color: rgb(88, 88, 216); text-decoration: none; border-radius: 2px; color: aliceblue;">Know more..</button>
-          
-        </div>
-        <div class="feature col">
-          <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
-            <img src="../assets/img/icon3.png" width="40px" height="40px"  alt="">
-          </div>
-          <h3 class="fs-2">Modern Fitness Equipment</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <button style="background-color: rgb(88, 88, 216); text-decoration: none; border-radius: 2px; color: aliceblue;">Know more..</button>
-        </div>
-      </div>
-    </div>
-
-    <br><br>
-
-    <div class="content">
-      <div class="d-md-flex flex-md-equal w-80 my-md-3 ps-md-3">
-        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 py-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
-          </div>
-          <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-        </div>
-        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 p-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
-          </div>
-          <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-        </div>
-        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 py-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
-          </div>
-          <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-        </div>
-      </div>
-    </div>
-
+ 
+ 
+<router-outlet></router-outlet>
+   
     <div class="cont">
       <hr width="100%">
       <footer class="py-5">
@@ -201,6 +109,6 @@
         </div>
       </footer>
     </div>
-    
+  
 </body>
 </html>
